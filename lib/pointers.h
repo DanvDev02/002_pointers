@@ -7,6 +7,8 @@
 
 #include <stdio.h>
 
+void swap(int *a,int *b);
+void printCollection(int *collection);
 int bubble_sort(int *collection, int count);
 void insertion_sort(int *collection, int count);
 void reverse(int *collection, int count);
